@@ -1,14 +1,15 @@
 # w10-zowe 
-git clone https://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@github.com/drb1972/w10-zowe.git
+git clone https://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@github.com/drb1972/w10-zowe.git
  
 ## Instalación standard
 
-- zowe v2
+- zowe v2 con CUST002 en Global Configuration
 
 ### Proceso
 - Instalar Nodejs: https://nodejs.org/en/download
 - Instalar VSCode: https://code.visualstudio.com/download 
-- Install Git:  https://git-scm.com/download/win 
+- Instalar Git:  https://git-scm.com/download/win 
+- Instalar ooRexx: https://sourceforge.net/projects/oorexx/ 
 
 - Restart
 
