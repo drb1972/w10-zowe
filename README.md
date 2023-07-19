@@ -10,6 +10,8 @@ git clone https://TOKEN@github.com/drb1972/w10-zowe.git
 - Instalar VSCode: https://code.visualstudio.com/download 
 - Instalar Git:  https://git-scm.com/download/win 
 - Instalar ooRexx: https://sourceforge.net/projects/oorexx/ 
+- Instalar Python: Desde Microsoft Store buscar Python 
+- Instalar VSCode Extension para Python 
 
 - Restart
 
@@ -20,6 +22,7 @@ git clone https://TOKEN@github.com/drb1972/w10-zowe.git
 - zowe plugins install @zowe/ims-for-zowe-cli@zowe-v2-lts 
 - zowe plugins install @zowe/mq-for-zowe-cli@zowe-v2-lts 
 - zowe plugins install @zowe/zos-ftp-for-zowe-cli@zowe-v2-lts
+- Instalar Extension Code4z
 
 Copiar zowe.config.json y zowe.schema.json a C:\Users\root\.zowe 
 
