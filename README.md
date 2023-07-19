@@ -1,11 +1,11 @@
 # w10-zowe 
-
+git clone https://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@github.com/drb1972/w10-zowe.git
+ 
 ## Instalación standard
 
 - zowe v2
 
-## Proceso
-
+### Proceso
 - Instalar Nodejs: https://nodejs.org/en/download
 - Instalar VSCode: https://code.visualstudio.com/download 
 - Install Git:  https://git-scm.com/download/win 
