@@ -1,5 +1,5 @@
 # w10-zowe 
-git clone https://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@github.com/drb1972/w10-zowe.git
+git clone https://TOKEN@github.com/drb1972/w10-zowe.git
  
 ## Instalación standard
 
