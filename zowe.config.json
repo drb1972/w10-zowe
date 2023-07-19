@@ -4,203 +4,15 @@
         "base": {
             "type": "base",
             "properties": {
-                "rejectUnauthorized": false
-            }
-        },
-        "ca11": {
-            "properties": {
-                "host": "usilca11.lvn.broadcom.net"
-            },
-            "secure": [
-                "user",
-                "password"
-            ],
-            "profiles": {
-                "zosmf": {
-                    "type": "zosmf",
-                    "properties": {
-                        "port": 1443
-                    }
-                },
-                "tso": {
-                    "type": "tso",
-                    "properties": {
-                        "codePage": "1047",
-                        "logonProcedure": "IZUFPROC"
-                    }
-                },
-                "ssh": {
-                    "type": "ssh",
-                    "properties": {
-                        "port": 22
-                    }
-                },
-                "sysview": {
-                    "type": "sysview",
-                    "properties": {
-                        "port": 8081
-                    }
-                },
-                "zftp": {
-                    "type": "zftp",
-                    "properties": {
-                        "port": 21,
-                        "secureFtp": false
-                    }
-                }
-            }
-        },
-        "ca31": {
-            "properties": {
-                "host": "usilca31.lvn.broadcom.net"
-            },
-            "secure": [
-                "user",
-                "password"
-            ],
-            "profiles": {
-                "zosmf": {
-                    "type": "zosmf",
-                    "properties": {
-                        "port": 1443
-                    }
-                },
-                "tso": {
-                    "type": "tso",
-                    "properties": {
-                        "codePage": "1047",
-                        "logonProcedure": "IZUFPROC"
-                    }
-                },
-                "ssh": {
-                    "type": "ssh",
-                    "properties": {
-                        "port": 22
-                    }
-                },
-                "db2": {
-                    "type": "db2",
-                    "properties": {
-                        "database": "DH0GPTIB",
-                        "port": 5261
-                    }
-                },
-                "sysview": {
-                    "type": "sysview",
-                    "properties": {
-                        "port": 8081
-                    }
-                },
-                "zftp": {
-                    "type": "zftp",
-                    "properties": {
-                        "port": 21,
-                        "secureFtp": false
-                    }
-                }
-            }
-        },
-        "ca32": {
-            "properties": {
-                "host": "usilca32.lvn.broadcom.net"
-            },
-            "secure": [
-                "user",
-                "password"
-            ],
-            "profiles": {
-                "zosmf": {
-                    "type": "zosmf",
-                    "properties": {
-                        "port": 1443
-                    }
-                },
-                "tso": {
-                    "type": "tso",
-                    "properties": {
-                        "codePage": "1047",
-                        "logonProcedure": "IZUFPROC"
-                    }
-                },
-                "ssh": {
-                    "type": "ssh",
-                    "properties": {
-                        "port": 22
-                    }
-                },
-                "db2": {
-                    "type": "db2",
-                    "properties": {
-                        "database": "DH0GPTIB",
-                        "port": 5261
-                    }
-                },
-                "fmp": {
-                    "type": "fmp",
-                    "properties": {
-                        "port": 51914,
-                        "protocol": "http"
-                    }
-                },
-                "jclcheck": {
-                    "type": "jclcheck",
-                    "properties": {
-                        "port": 10193
-                    }
-                },
-                "sysview": {
-                    "type": "sysview",
-                    "properties": {
-                        "port": 8081
-                    }
-                },
-                "zftp": {
-                    "type": "zftp",
-                    "properties": {
-                        "port": 21,
-                        "secureFtp": false
-                    }
-                }
-            }
-        },
-        "de20": {
-            "properties": {
-                "host": "mvsde20.lvn.broadcom.net"
-            },
-            "secure": [
-                "user",
-                "password"
-            ],
-            "profiles": {
-                "zosmf": {
-                    "type": "zosmf",
-                    "properties": {
-                        "port": 449
-                    }
-                },
-                "tso": {
-                    "type": "tso",
-                    "properties": {
-                        "codePage": "1047",
-                        "logonProcedure": "IZUFPROC"
-                    }
-                },
-                "ssh": {
-                    "type": "ssh",
-                    "properties": {
-                        "port": 22
-                    }
-                }
+                "rejectUnauthorized": false,
+                "user": "CUST002",
+                "password": "CUST002"
             }
         },
         "mstr": {
             "properties": {
                 "host": "mstrbrs.lvn.broadcom.net"
-            },
-            "secure": [
-                "user",
-                "password"
-            ],
+                },
             "profiles": {
                 "zosmf": {
                     "type": "zosmf",
@@ -212,7 +24,7 @@
                     "type": "tso",
                     "properties": {
                         "codePage": "1047",
-                        "logonProcedure": "IZUFPROC"
+                        "logonProcedure": "CATSODB"
                     }
                 },
                 "ssh": {
@@ -296,10 +108,6 @@
             "properties": {
                 "host": "sr01brs.lvn.broadcom.net"
             },
-            "secure": [
-                "user",
-                "password"
-            ],
             "profiles": {
                 "zosmf": {
                     "type": "zosmf",
@@ -311,7 +119,7 @@
                     "type": "tso",
                     "properties": {
                         "codePage": "1047",
-                        "logonProcedure": "IZUFPROC"
+                        "logonProcedure": "CATSODB"
                     }
                 },
                 "ssh": {
@@ -372,84 +180,31 @@
                     }
                 }
             }
-        },
-        "tso1": {
-            "properties": {
-                "host": "tso1.lvn.broadcom.net"
-            },
-            "secure": [
-                "user",
-                "password"
-            ],
-            "profiles": {
-                "zosmf": {
-                    "type": "zosmf",
-                    "properties": {
-                        "port": 443
-                    }
-                },
-                "tso": {
-                    "type": "tso",
-                    "properties": {
-                        "codePage": "1047",
-                        "logonProcedure": "IZUFPROC"
-                    }
-                },
-                "ssh": {
-                    "type": "ssh",
-                    "properties": {
-                        "port": 22
-                    }
-                },
-                "endevor": {
-                    "type": "endevor",
-                    "properties": {
-                        "port": 50002,
-                        "protocol": "http"
-                    }
-                },
-                "slick": {
-                    "type": "endevor-location",
-                    "properties": {
-                        "instance": "WEBSMFNE",
-                        "environment": "DEV",
-                        "system": "SLICK",
-                        "subsystem": "SLICK"
-                    }
-                },
-                "zftp": {
-                    "type": "zftp",
-                    "properties": {
-                        "port": 21,
-                        "secureFtp": false
-                    }
-                }
-            }
         }
     },
     "defaults": {
-        "zosmf": "ca32.zosmf",
-        "tso": "ca32.tso",
-        "ssh": "ca32.ssh",
+        "zosmf": "sr01.zosmf",
+        "tso": "sr01.tso",
+        "ssh": "sr01.ssh",
         "ca7": "",
         "caspool": "",
         "caview": "",
         "cics": "",
-        "db2": "ca32.db2",
+        "db2": "sr01.db2",
         "ebg": "",
         "endevor": "tso1.endevor",
         "endevor-location": "tso1.slick",
-        "fmp": "ca32.fmp",
+        "fmp": "sr01.fmp",
         "idms": "",
         "ims": "",
-        "jclcheck": "ca32.jclcheck",
+        "jclcheck": "sr01.jclcheck",
         "mat": "",
         "pma": "",
         "mq": "",
-        "ops": "",
-        "sysview": "ca32.sysview",
+        "ops": "sr01.ops",
+        "sysview": "sr01.sysview",
         "sysview-format": "",
-        "zftp": "ca32.zftp",
+        "zftp": "sr01.zftp",
         "base": "base"
     },
     "autoStore": true
