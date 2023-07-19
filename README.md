@@ -26,7 +26,7 @@ git clone https://TOKEN@github.com/drb1972/w10-zowe.git
 
 Copiar zowe.config.json y zowe.schema.json a C:\Users\root\.zowe 
 
-Para cambiar de profile: 
+Para cambiar de profile:
 zowe config set "defaults.zosmf" "LPAR.zosmf" --gc
 
 Ejemplo de comando con profile zowe files list ds cust002.* --zosmf-profile LPAR.zosmf siendo LPAR mstr o sr01
